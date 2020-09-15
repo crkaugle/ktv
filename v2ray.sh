@@ -10,7 +10,8 @@ cat << EOF > /etc/config.json
             "settings": {
                 "clients": [
                     {
-                        "id": "$UUID"
+                        "id": "$UUID",
+                        "alterId": 64
                     }
                 ]
             },
@@ -35,7 +36,7 @@ cat << EOF > /etc/config.json
                 "servers": [
                     {
                         "address": "127.0.0.1",
-                        "port": 9050
+                        "port": 8050
                     }
                 ]
             }
