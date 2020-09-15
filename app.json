@@ -1,10 +1,10 @@
 {
-    "name": "v2-heroku",
-    "description": "deploy v2ray tor on heroku",
-    "keywords": ["v2ray"],
+    "name": "forheroku",
+    "description": "deploy vr tr on heroku",
+    "keywords": ["vr"],
     "env": {
         "UUID": {
-            "description": "v2ray UUID",
+            "description": "vr UUID",
             "value": "c95ef1d4-f3ac-4586-96e9-234a37dda068"        
         }
     },
