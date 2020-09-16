@@ -14,7 +14,7 @@
 
 ![repository](/img/kinto1.PNG)
 
-3. Build Settings 文件名填写Dockerfile，端口填上8888，填写如下：
+3. Build Settings 文件名填写Dockerfile，端口填上8080，填写如下：
 
 ![build](/img/kinto.PNG)
 
@@ -38,7 +38,7 @@ v2ray的配置文件config.json，可以改为自己的私密链接，比如 htt
 
 方法二：
 
-Fork本项目，到config.json里面修改uuid或其它，然后到Dockerfile里面修改ENV CONFIG= 指向链接，例如：`ENV CONFIG=https://raw.githubusercontent.com/yeahwu/kinto/master/config.json`指向你自己项目的config.json文件。
+Fork本项目，到config.json里面修改uuid或其它，然后到Dockerfile里面修改ENV CONFIG= 指向链接，例如：`ENV CONFIG=https://raw.githubusercontent.com/wellshe/ktv/master/config.json`指向你自己项目的config.json文件。
 
 支持本博：https://starts.sh/donation.html
 
