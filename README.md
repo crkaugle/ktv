@@ -8,15 +8,15 @@
 ### 部署服务端
 1. 点开 https://app.kintohub.com/ 新建一个APP，点击 Create Service ,然后创建 Web App 如图：
 
-![创建 web app](/img/ktv1)
+![创建 web app](/img/ktv1.png)
 
 2. Repository 填上git链接和默认分支master
 
-![repository](/img/ktv2)
+![repository](/img/ktv2.png)
 
 3. Build Settings 文件名填写Dockerfile，端口填上8080，填写如下：
 
-![build](/img/ktv3)
+![build](/img/ktv3.png)
 
 最后点击右上角 Deploy，部署完成，会生成一个链接，点击链接，如果显示Bad Request，即为成功。
 
@@ -25,7 +25,8 @@
 客户端配置如图，加速可使用Cloudflare CDN workes缓存，使用cloudflare.com或优选IP接入：
 
 ![v2ray](/img/kinto3.jpg)
-![v2ray](/img/ktv4)
+![v2ray](/img/ktv4.png)
+![v2ray](/img/ktv5.png)
 
 默认UUID：ad806487-2d26-4636-98b6-ab85cc8521f7
 
