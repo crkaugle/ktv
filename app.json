@@ -1,5 +1,5 @@
 {
-    "name": "forheroku",
+    "name": "hk-vr",
     "description": "deploy vr tr on heroku",
     "keywords": ["vr"],
     "env": {
@@ -9,6 +9,6 @@
         }
     },
     "website": "https://starts.sh",
-    "repository": "https://github.com/yeahwu/v2-heroku",
+    "repository": "https://github.com/wellshe/ktv",
     "stack": "container"
 }
