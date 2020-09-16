@@ -22,7 +22,7 @@
 
 ### 客户端配置
 
-客户端配置如图，加速可使用Cloudflare CDN workes缓存，使用cloudflare.com或优选IP接入：
+客户端配置如图，加速可使用Cloudflare CDN workers缓存，使用cloudflare.com或优选IP接入：
 
 ![v2ray](/img/kinto3.jpg)
 ![v2ray](/img/ktv4.png)
