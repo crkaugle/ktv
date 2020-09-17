@@ -4,15 +4,27 @@
 
 Heroku上部署v2ray和tor，部署成功后，可用v2ray客户端直接访问tor网络，比如暗网.onion，v2ray.json文件中设置了路由分流了tor网络，非tor流量不受影响。
 
+#### 注册herohu账号
+
+![Register](/img/heroku1.PNG)
+
 #### 部署服务端
 
 点击上面紫色`Deploy to Heroku`，会跳转到heroku app创建页面，填上app的名字，然后换上从 https://www.uuidgenerator.net/ 拷贝过来的UUID，点击下面deploy创建APP，完成后会生成一个链接，点击链接显示“Bad Request”就说明部署成功了！
 
+![deploy](/img/heroku2.PNG)
+![deploy](/img/heroku3.PNG)
+
 需要记下的是appname,和你填入的UUID，下面就可以设置客户端翻墙了。
+
+默认UUID：ad806487-2d26-4636-98b6-ab85cc8521f7
 
 #### 客户端设置
 
-![443port](https://github.com/yeahwu/kinto/raw/master/img/kinto3.jpg)
+使用youappname.herokuapp.com接入，加速使用使用Cloudflare workers
+
+![443port](/img/keroku4.PNG)
+![443port](/img/keroku5.PNG)
 
 上图是443端口设置方法，当然你也可以设置80端口，不要打开tls就可以了，如下：
 
@@ -56,7 +68,7 @@ Heroku上部署v2ray和tor，部署成功后，可用v2ray客户端直接访问t
             "port": 443,
             "users": [
               {
-                "id": "c95ef1d4-f3ac-4586-96e9-234a37dda068"
+                "id": "ad806487-2d26-4636-98b6-ab85cc8521f7"
               }
             ]
           }
