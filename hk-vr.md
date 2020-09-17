@@ -23,8 +23,8 @@ Heroku上部署v2ray和tor，部署成功后，可用v2ray客户端直接访问t
 
 使用youappname.herokuapp.com接入，加速使用使用Cloudflare workers
 
-![443port](/img/keroku4.PNG)
-![443port](/img/keroku5.PNG)
+![443port](/img/heroku4.PNG)
+![443port](/img/heroku5.PNG)
 
 上图是443端口设置方法，当然你也可以设置80端口，不要打开tls就可以了，如下：
 
