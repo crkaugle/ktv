@@ -11,5 +11,7 @@ RUN apk update && apk add --no-cache tor ca-certificates && \
     tar xvfz /tmp/v2ray.tgz -C /usr/bin && \
     rm -rf /tmp/v2ray.tgz
     
+ADD v2ray.sh /v2ray.sh
+RUN chmod +x /v2ray.sh
 CMD nohup tor & \
     v2ray -config $CONFIG
