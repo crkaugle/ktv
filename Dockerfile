@@ -1,8 +1,8 @@
 FROM golang:alpine AS builder
 RUN apk update && apk add --no-cache git bash curl
-WORKDIR /go/src/v2ray.com/core
+WORKDIR /go/src/vr/core
 RUN git clone --progress https://github.com/wellshe/vr-core.git . && \
-    bash ./release/user-package.sh nosource noconf codename=$(git describe --tags) buildname=docker-fly abpathtgz=/tmp/v2ray.tgz
+    bash ./release/user-package.sh nosource noconf codename=$(git describe --tags) buildname=docker-vr abpathtgz=/tmp/v2ray.tgz
 
 FROM alpine
 ENV CONFIG=https://raw.githubusercontent.com/wellshe/ktv/master/config.json
