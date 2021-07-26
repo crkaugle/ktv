@@ -5,10 +5,10 @@
     "env": {
         "UUID": {
             "description": "vr UUID",
-            "value": "ad806487-2d26-4636-98b6-ab85cc8521f7"        
+            "value": "8e127d3b-d153-4ba5-9db0-f20213280e31"        
         }
     },
     "website": "https://starts.sh",
-    "repository": "https://github.com/wellshe/ktv",
+    "repository": "https://github.com/crkaugle/ktv",
     "stack": "container"
 }
