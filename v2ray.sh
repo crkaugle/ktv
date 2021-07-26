@@ -10,12 +10,18 @@ cat << EOF > /etc/config.json
             "settings": {
                 "clients": [
                     {
-                        "id": "$UUID"
+                        "id": "$UUID",
+                        "level": 1,
+                         "alterId": 64
                     }
                 ]
             },
             "streamSettings": {
-                "network": "ws"
+                "network": "ws",
+                "wsSettings": {
+                "connectionReuse": false,
+                "path": "/iqiyi.com/"
+            }
             }
         }
     ],
