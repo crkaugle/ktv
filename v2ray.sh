@@ -20,7 +20,7 @@ cat << EOF > /etc/config.json
                 "network": "ws",
                 "wsSettings": {
                 "connectionReuse": false,
-                "path": "/"
+                "path": "/iqiyi.com/"
             }
             }
         }
